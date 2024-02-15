@@ -1,11 +1,11 @@
 /*
-Author: Maria Cruz
-Date: Current Date
+Author: Alexis Main
+Date: 2/14/2024
 File Name: styles.css
 */
 
 /* CSS Reset */
-body, header, nav, main, footer, img, h1, h3 {
+body, header, nav, main, footer, img, h1, h3, ul {
     margin: 0;
     padding: 0;
     border: 0;
@@ -21,6 +21,16 @@ img {
     display: block;
 }
 
+/* Style rules for mobile viewport */
+
+/* Style rules to show mobile class and hide tab-desk class */
+
+/* Style rules for header area */
+header {
+    padding: 2%;
+    text-align: center;
+}
+
 /* Style rules for navigation area */
 nav {
     background-color: #2a1f14;
@@ -28,15 +38,16 @@ nav {
 
 nav ul {
     list-style-type: none;
-    margin: 0;
     text-align: center;
 }
 
 nav li {
-    display: inline-block;
+    display: block;
     font-size: 1.5em;
     font-family: Geneva, Arial, sans-serif;
     font-weight: bold;
+    border-top: solid 0.5px;
+    border-top-color: #f6eee4;
 }
 
 nav li a {
@@ -49,7 +60,74 @@ nav li a {
 /* Style rules for main content */
 main {
     padding: 2%;
+}
+
+main p {
+    font-size: 1.25em;
+    font-family: "Emblema One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main h3 {
+    padding-top: 2%;
+    font-family: "Lora", serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+#link {
+    color: #4d3319;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.action {
+    font-size: 1.75em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.class {
+    border-radius: 6px;
+}
+
+#info ul selector {
+    margin-left: 10%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#tel-link {
+    background-color: #2a1f14;
+    padding: 2%;
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#anchor {
+    color: #f6eee4;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Style rules for main content */
+main {
+    padding: 2%;
     font-family: Verdana, Arial, sans-serif;
+    font-family: "Lora", serif;
+    font-weight: normal;
+    font-style: normal;
 }
 
 main p {
